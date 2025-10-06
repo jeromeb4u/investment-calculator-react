@@ -3,10 +3,10 @@ import investmentCalculatorLogo from "/src/assets/investment-calculator-logo.png
 export default function Header() {
   return (
     <>
-      <div id="header">
-        <img src={investmentCalculatorLogo} />
+      <header id="header">
+        <img src={investmentCalculatorLogo} alt="Logo showing a money bag" />
         <h1>React Investment Calculator</h1>
-      </div>
+      </header>
     </>
   );
 }

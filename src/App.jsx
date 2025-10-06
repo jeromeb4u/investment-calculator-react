@@ -6,10 +6,7 @@ function App() {
     <>
       <Header />
       <div className="user-group">
-        <UserInput label="Initial Investment" />
-        <UserInput label="Annual Investment" />
-        <UserInput label="Expected Return" />
-        <UserInput label="Duration" />
+        <UserInput />
       </div>
     </>
   );
